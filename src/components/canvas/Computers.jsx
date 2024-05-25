@@ -23,8 +23,8 @@ const HouseModel = ({ isMobile }) => {
       <pointLight intensity={1} />
       <primitive
         object={houseModel}
-        scale={isMobile ? 0.7 : 0.25}
-        position={isMobile ? [0, -3, -2.2] : [0, -4.75, 2.5]}
+        scale={isMobile ? 0.14 : 0.25}
+        position={isMobile ? [0, -2.75, 2.2] : [0, -4.75, 2.5]}
         rotation={[0, 0, 0]}
       />
     </group>
